@@ -224,7 +224,7 @@ if [ "$1" = "-u" ] || [ "$1" = "--uninstall" ] || [ "$2" = "-u" ] || [ "$2" = "-
           echo "--uninstall driver selected."
      fi
      \rm -rf /lib/modules/*/kernel/drivers/misc/.nvidia_installed > /dev/null 2>&1
-     \rm -rf "/etc/sysconfig/nvidia/*-installed" > /dev/null 2>&1
+     \rm -rf /etc/sysconfig/nvidia/*-installed > /dev/null 2>&1
 
      chattr +i /usr/lib/libGL.so.1.* > /dev/null 2>&1
      chattr +i /usr/lib/libGL.so.1.2.0  > /dev/null 2>&1
