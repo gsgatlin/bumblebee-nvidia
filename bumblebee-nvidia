@@ -580,7 +580,7 @@ if [ ! -e "/etc/sysconfig/nvidia/`uname -r`-installed" ]  || [ "$forcenvidia" ];
           # Delete the other flag (wherever it is) in case a user needs to 
           # boot into a older kernel so they need not manually remove it.
           \rm -rf /lib/modules/*/kernel/drivers/misc/.nvidia_installed > /dev/null 2>&1
-          \rm -rf "/etc/sysconfig/nvidia/*-installed"
+          \rm -rf /etc/sysconfig/nvidia/*-installed
 
           # The next line prevents us from running through this loop again 
           # until there is a kernel upgrade from Red Hat. --force or -f 
