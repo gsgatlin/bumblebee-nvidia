@@ -18,7 +18,7 @@
 # This script is intended for Red Hat type systems. It was tested on several
 # different fedoras and RHEL 6/7.
 #
-# Gary Scott Gatling <gsgatlin@ncsu.edu> 2/27/2017
+# Gary Scott Gatling <gsgatlin@ncsu.edu> 3/19/2017
 # Gilboa Davara <gilboad@gmail.com> 7/28/2013 - Added support for kernels newer 
 # then 3.10 and a mechanism for adding in various patches to the blob.
 # Fahad Alduraibi 10/21/2015 add idea for 
